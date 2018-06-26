@@ -31,7 +31,7 @@ safe-delete allows you to customise some things
 
 ```javascript
 var options = {
-    popupTitle : "Type DELETE then click the button",
+    popupTitle : "Type KILL IT WITH FIRE then click the button",
     yesCallback : function(){},
     noCallback : function(){},
     safeText : "KILL IT WITH FIRE",
