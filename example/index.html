@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>safe-delete demo</title>
+  <script src="../dependencies/jquery/jquery-1.9.1.js"></script>
+  <script src="../dependencies/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../safe-delete.min.js"></script>
+  <link href="../dependencies/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+  <button class="btn btn-danger btn-safe-delete" data-safe-delete-id="3536">DELETE ME</button>
+  <script>
+    $('.btn-safe-delete').on('click', function(){
+      var id = $(this).attr('data-safe-delete-id');
+      $(this).safeDelete({
+        yesCallback : function(){
+          $.ajax({
+              url: '/my/delete/url/' + id,
+              type: 'DELETE'
+          });
+        }
+      });
+    });  
+  </script>
+</body>
+</html>
