@@ -1,5 +1,6 @@
 # safe-delete
-Bootstrap plugin for safe deletion with confirm prompt
+Bootstrap plugin for safe deletion with confirm prompt<br />
+Check-out this fork by jqueryscript https://www.jqueryscript.net/lightbox/Double-Confirmation-Bootstrap-Safe-Delete.html that enhances this project
 
 # Dependencies
 Bootstrap 3.3.6
