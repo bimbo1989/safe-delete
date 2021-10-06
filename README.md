@@ -53,3 +53,8 @@ $(element).safeDelete(options);
 | **closeOnSelection** | default at true, lets you choose if you want the popup to close after the selection or not            |
 | **deleteButton**     | makes you choose the text to put inside the delete button                                             |
 | **cancelButton**     | makes you choose the text to put inside the cancel button                                             |
+
+# Mantainers
+- Marco Bimbati
+- Mattia Trombon
+- Francesca Reale
