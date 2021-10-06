@@ -44,10 +44,12 @@ var options = {
 $(element).safeDelete(options);
 ```
 
-**popupTitle** => will change the title of the popup <br />
-**yesCallback** => is the function to be executed when the deletion is confirmed <br />
-**noCallback** => is the function to be executed when the deletion is cancelled <br />
-**safeText** => is the text that the user is required to write in order to enable the delete button (case sensitive!) <br />
-**closeOnSelection** => default at true, lets you choose if you want the popup to close after the selection or not <br />
-**deleteButton** => makes you choose the text to put inside the delete button <br />
-**cancelButton** => makes you choose the text to put inside the cancel button <br />
+| Property             | Description                                                                                           |
+| :------------------- | :---------------------------------------------------------------------------------------------------- |
+| **popupTitle**       | will change the title of the popup                                                                    |
+| **yesCallback**      | is the function to be executed when the deletion is confirmed                                         |
+| **noCallback**       | is the function to be executed when the deletion is cancelled                                         |
+| **safeText**         | is the text that the user is required to write in order to enable the delete button (case sensitive!) |
+| **closeOnSelection** | default at true, lets you choose if you want the popup to close after the selection or not            |
+| **deleteButton**     | makes you choose the text to put inside the delete button                                             |
+| **cancelButton**     | makes you choose the text to put inside the cancel button                                             |
