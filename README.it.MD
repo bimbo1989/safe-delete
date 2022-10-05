@@ -1,7 +1,7 @@
 # ateco-sql
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/bimbo1989/safe-delete/blob/master/README.md)
 
-Plugin Bootstrap per l'eliminazione sicura con richiesta di conferma
+Plugin Bootstrap per l'eliminazione sicura con richiesta di conferma <br/>
 Dai un'occhiata a questo fork di jqueryscript https://www.jqueryscript.net/lightbox/Double-Confirmation-Bootstrap-Safe-Delete.html che migliora questo progetto
 
 # Dipendenze
