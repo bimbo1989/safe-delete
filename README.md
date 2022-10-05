@@ -1,4 +1,7 @@
 # safe-delete
+[![it](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/matt-tro/ateco-sql/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-it-green.svg)](https://github.com/matt-tro/ateco-sql/blob/master/README.it.md)
+
 Bootstrap plugin for safe deletion with confirm prompt<br />
 Check-out this fork by jqueryscript https://www.jqueryscript.net/lightbox/Double-Confirmation-Bootstrap-Safe-Delete.html that enhances this project
 
