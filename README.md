@@ -5,11 +5,11 @@
 Bootstrap plugin for safe deletion with confirm prompt<br />
 Check-out this fork by jqueryscript https://www.jqueryscript.net/lightbox/Double-Confirmation-Bootstrap-Safe-Delete.html that enhances this project
 
-# Dependencies
+## Dependencies
 Bootstrap 3.3.6
 jQuery 1.9.1
 
-# How to use
+## How to use
 After integrating the script in your page, you can call the plugin from any element like this
 
 ```html
@@ -30,7 +30,7 @@ $('.btn-safe-delete').on('click', function(){
 });
 ```
 
-# Arguments
+## Arguments
 safe-delete allows you to customise some things
 
 ```javascript
@@ -57,7 +57,7 @@ $(element).safeDelete(options);
 | **deleteButton**     | makes you choose the text to put inside the delete button                                             |
 | **cancelButton**     | makes you choose the text to put inside the cancel button                                             |
 
-# Mantainers
+## Mantainers
 - Marco Bimbati
 - Mattia Trombon
 - Francesca Reale
