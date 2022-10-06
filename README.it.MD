@@ -1,14 +1,14 @@
-# ateco-sql
+# safe-delete
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/bimbo1989/safe-delete/blob/master/README.md)
 
 Plugin Bootstrap per l'eliminazione sicura con richiesta di conferma <br/>
 Dai un'occhiata a questo fork di jqueryscript https://www.jqueryscript.net/lightbox/Double-Confirmation-Bootstrap-Safe-Delete.html che migliora questo progetto
 
-# Dipendenze
+## Dipendenze
 Bootstrap 3.3.6
 jQuery 1.9.1
 
-# Come utilizzarlo
+## Come utilizzarlo
 Dopo aver integrato lo script nella tua pagina, puoi chiamare il plugin da qualsiasi elemento come questo
 
 ```html
@@ -29,7 +29,7 @@ $('.btn-safe-delete').on('click', function(){
 });
 ```
 
-# Argomenti
+## Argomenti
 safe-delete ti permette di personalizzare alcune cose
 
 ```javascript
@@ -56,7 +56,7 @@ $(element).safeDelete(options);
 | **deleteButton**     | ti fa scegliere il testo da inserire all'interno del pulsante di eliminazione                         |
 | **cancelButton**     | ti fa scegliere il testo da inserire all'interno del pulsante di annullamento                         |
 
-# Gestito da
+## Gestito da
 - Marco Bimbati
 - Mattia Trombon
 - Francesca Reale
